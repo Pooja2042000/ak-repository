@@ -1,0 +1,51 @@
+#main-header {
+    background-color: aqua;
+    display: inline-block;
+    width: 100%;
+}
+
+.logo-col{
+    width: 30%;
+    padding: 0px 15px;
+    display: inline-block;
+}
+.logo{
+    width: 100%;
+}
+.menu-col{
+    width: 70%;
+    padding: 0px 15px;
+    display: inline-block;
+}
+.menu{
+    width: 100%;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+.row {
+    margin: 0px -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu ul li {
+    list-style: none;
+}
+*{
+  margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
